@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newback"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <!-- GridLayout for Buttons -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:rowOrderPreserved="false"
+            android:layout_gravity="center"
+            android:useDefaultMargins="true"
+            android:layout_marginBottom="32dp">
+
+            <!-- Button 1 - Menu -->
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Menu"
+                android:backgroundTint="#DCC6B2"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_margin="8dp" />
+
+            <!-- Button 2 - Tables -->
+            <Button
+                android:id="@+id/btnTables"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Tables"
+                android:backgroundTint="#E7D8C9"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_margin="8dp" />
+
+            <!-- Button 3 - Orders -->
+            <Button
+                android:id="@+id/btnOrders"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Orders"
+                android:backgroundTint="#F2E3D5"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_margin="8dp" />
+
+            <!-- Button 4 - Analytics -->
+<!--            <Button-->
+<!--                android:id="@+id/btnAnalytics"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:text="Analytics"-->
+<!--                android:backgroundTint="#CBBBA0"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="16sp"-->
+<!--                android:layout_margin="8dp" />-->
+        </GridLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

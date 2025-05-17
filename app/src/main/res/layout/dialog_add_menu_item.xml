@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:padding="20dp"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <EditText
+
+        android:id="@+id/editTextItemName"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Item Name" />
+
+    <EditText
+
+        android:id="@+id/editTextItemPrice"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Price" />
+    <EditText
+
+        android:id="@+id/editTextItemPosition"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Position"
+
+        android:inputType="number" />
+
+    <!-- Later we’ll handle image selection, for now just a placeholder -->
+    <EditText
+
+        android:id="@+id/editTextItemImageUrl"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="Image URL"
+
+        android:inputType="textUri" />
+
+    <!-- This is the Add button you asked for -->
+    <Button
+
+        android:id="@+id/btnAddItem"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add" />
+
+</LinearLayout>
+
